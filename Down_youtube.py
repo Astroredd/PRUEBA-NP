@@ -21,7 +21,7 @@ def download_youtube_video(video_url, output_path, filename):
         print(f"Ocurrió un error: {e}")
 
 # URL del video de YouTube
-video_url = 'https://www.youtube.com/watch?v=w2p0hE8hsQY'
+video_url = input("Intruce la url del video de  Youtube")
 output_path = './SEBA'
 filename = 'DIA1'
 
